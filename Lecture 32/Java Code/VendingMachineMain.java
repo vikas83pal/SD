@@ -1,5 +1,3 @@
-// Forward declaration not needed in Java
-
 // Abstract State Interface
 interface VendingState {
     VendingState insertCoin(VendingMachine machine, int coin);
